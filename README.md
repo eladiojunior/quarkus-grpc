@@ -15,7 +15,7 @@ gRPC [Google Remote Call Procedures] é um framework desenvolvido pela Google de
 
 ## Para rodar o exemplo em modo _dev_ use:
 
-Utilize o Mavin para rodar a aplicação de exemplo:
+Utilize o maven para rodar a aplicação de exemplo:
 ```
 ./mvn quarkus:dev
 ```
