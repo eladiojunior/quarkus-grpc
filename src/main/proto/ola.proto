@@ -1,0 +1,18 @@
+// Documuentação
+// https://developers.google.com/protocol-buffers/docs/proto3
+//
+syntax = "proto3";
+option java_package="br.com.eladiojunior.grpc";
+option java_multiple_files=true;
+service OlaService {
+  rpc DigaOla (OlaRequest) returns (OlaResponse);
+}
+
+message OlaRequest {
+  string nome = 1;
+}
+
+message OlaResponse {
+  string mensagem = 1;
+  int32 quantidadeRequests = 2;
+}
